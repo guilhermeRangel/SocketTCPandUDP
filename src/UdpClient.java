@@ -5,11 +5,6 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 
-
-// L� uma linha do teclado
-// Envia o pacote (linha digitada) ao servidor
-
-
 class UdpClient {
     public static void main(String args[]) throws Exception
     {
@@ -37,7 +32,8 @@ class UdpClient {
         // String sentence = inFromUser.readLine();
         sendData = bytes;
 
-        System.out.println(sendData.length);
+        System.out.println("enviado bytes:" + sendData.length);
+
 
 
         // cria pacote com o dado, o endere�o do server e porta do servidor

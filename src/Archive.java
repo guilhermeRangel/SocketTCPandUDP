@@ -40,11 +40,5 @@ public class Archive {
         return sendBuf;
     }
 
-//    File sourceFile = new File("Caminho");
-//    FileOutputStream file = new FileOutputStream(sourceFile);
-//    BufferedOutputStream output = new BufferedOutputStream(file);
-//         output.flush();
-//         output.write(bytesArray, 0, bytesArray.length);
-//         output.flush();
-//         output.close();
+
 }
